@@ -60,3 +60,4 @@ buck-out/
 /ios/Pods/
 /android/app/debug.keystore
 /coverage/
+/package-lock.json

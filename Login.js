@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react';
-import {View, Button, TextInput, AsyncStorage, StyleSheet} from 'react-native';
+import { View, Button, TextInput, StyleSheet } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState('');

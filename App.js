@@ -5,8 +5,8 @@ import {
   TextInput,
   Button,
   StatusBar,
-  AsyncStorage,
 } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import Login from './Login';
 import Main from './Main';
